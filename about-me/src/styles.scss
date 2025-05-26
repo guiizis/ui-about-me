@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.6)),
+    url('/assets/bg-western.png') no-repeat center center fixed;
+  background-size: cover;
+
+}
